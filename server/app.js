@@ -13,6 +13,8 @@ app.listen(process.env.PORT || 3000, function () {
 
 
 app.get('/', function (req, res) {
-  console.log('In main schedule page');
-  res.sendFile(path.resolve('index.html'));
+  console.log('In main page');
+  res.sendFile(path.resolve('public/index.html'));
 });
+
+// app.use( express.static( 'public' ) );
