@@ -3,6 +3,8 @@ var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
 app.use( bodyParser.json() );
+var urlencodedParser = bodyParser.urlencoded( { extended: false } );
+
 
 
 app.listen(process.env.PORT || 3000, function () {
@@ -17,4 +19,4 @@ app.get('/', function (req, res) {
   res.sendFile(path.resolve('public/index.html'));
 });
 
-// app.use( express.static( 'public' ) );
+app.use( express.static( 'public' ) );
