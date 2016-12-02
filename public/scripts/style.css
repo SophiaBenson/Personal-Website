@@ -8,19 +8,47 @@ body {
   background-color: white;
   color: black;
 }
-
+.nameTitleDiv{
+  width: 400px;
+  display: inline-block;
+  float: left;
+  background-color: white;
+  padding-left: 300px;
+}
+#name{
+  color: black;
+  font-size: 50px;
+}
+#title{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
 #selfImg{
   height: 500px;
   width: 320px;
+  float: right;
+  display: inline-block;
+  padding-right: 200px;
 }
-#bannerImg{
-  height: 600px;
-  width: auto;
-}
+
 .projectDiv {
   color: black;
   height: 800px;
   width: auto;
   background-image: url("../images/tree_bark.png");
   border-top: 2px solid black;
+}
+.experienceDiv{
+  height: 800px;
+  width: auto;
+  border-top: 2px solid black;
+
+}
+.educationDiv{
+  height: 800px;
+  width: auto;
+  background-image: url("../images/foggy_birds.png");
+  border-top: 2px solid black;
+
 }
