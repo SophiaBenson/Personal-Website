@@ -26,7 +26,7 @@ body {
 }
 #selfImg{
   height: 500px;
-  width: 320px;
+  width: auto;
   float: right;
   display: inline-block;
   padding-right: 200px;
