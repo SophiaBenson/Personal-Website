@@ -1,9 +1,13 @@
 body {
   font-size: 15px;
-};
-.nameDiv{
+}
+
+.nameDiv {
   width: auto;
   height: 300px;
   background-color: blue;
+  color: red;
+}
+.projectDiv {
   color: red;
 }
