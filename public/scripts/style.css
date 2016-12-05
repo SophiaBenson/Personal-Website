@@ -31,6 +31,9 @@ body {
   display: inline-block;
   padding-right: 200px;
 }
+.navbar  { border: 1px; background-color: #222222; position: absolute; top: 100%; width: auto; z-index: 999; }
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+.navbar-nav { margin: 0px; }
 
 .projectDiv {
   color: black;
